@@ -1,0 +1,28 @@
+stop();
+
+function button1_clicked(e:MouseEvent):void{
+	gotoAndStop("page1");
+}
+
+function button2_clicked(e:MouseEvent):void{
+	gotoAndStop("page2");
+}
+
+function button3_clicked(e:MouseEvent):void{
+	gotoAndStop("page3");
+}
+
+function button4_clicked(e:MouseEvent):void{
+	gotoAndStop("page4");
+}
+
+function button5_clicked(e:MouseEvent):void{
+	gotoAndStop("page5");
+}
+
+
+button1.addEventListener(MouseEvent.CLICK,button1_clicked);
+button2.addEventListener(MouseEvent.CLICK,button2_clicked);
+button3.addEventListener(MouseEvent.CLICK,button3_clicked);
+button4.addEventListener(MouseEvent.CLICK,button4_clicked);
+button5.addEventListener(MouseEvent.CLICK,button5_clicked);
